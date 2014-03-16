@@ -6,6 +6,23 @@
     <Version>11.1.1.0.0</Version>
     <DataModel id="L}1">
         <CreationUpdateNumber>2</CreationUpdateNumber>
+        <Variable id="G}-41c81673:144cb4919e9:-7c37">
+            <Name>Global1</Name>
+            <Alias>Global1</Alias>
+            <Visible>true</Visible>
+            <CreationUpdateNumber>74</CreationUpdateNumber>
+            <IDofType>B}nil</IDofType>
+            <ListContentID>B}nil</ListContentID>
+            <IDofBucketSet>B}nil</IDofBucketSet>
+            <Expression id="L}441">
+                <IsConstant>false</IsConstant>
+                <ParameterID>B}nil</ParameterID>
+                <Customizable>true</Customizable>
+            </Expression>
+            <Final>true</Final>
+            <System>false</System>
+            <ValidationUpdateNumber>-1</ValidationUpdateNumber>
+        </Variable>
         <JaxbFactType id="J}org.example.Criteria">
             <Name>org.example.Criteria</Name>
             <Alias>criteria</Alias>
@@ -1372,8 +1389,8 @@
             <RuleFiringLimit>10000</RuleFiringLimit>
             <RuleFiringLimitError>true</RuleFiringLimitError>
         </DecisionFunction>
-        <UpdateNumber>70</UpdateNumber>
-        <ValidationUpdateNumber>70</ValidationUpdateNumber>
+        <UpdateNumber>75</UpdateNumber>
+        <ValidationUpdateNumber>-1</ValidationUpdateNumber>
         <UpdateTime>-9223372036854775808</UpdateTime>
     </DataModel>
     <RuleSet id="G}36d4474c:142fd15e64b:-7bf2">
@@ -2000,7 +2017,7 @@
         <VisibilityFilterEnabled>false</VisibilityFilterEnabled>
         <CreationUpdateNumber>4</CreationUpdateNumber>
     </RuleSet>
-    <ValidationUpdateNumber>73</ValidationUpdateNumber>
-    <UpdateNumber>73</UpdateNumber>
+    <ValidationUpdateNumber>-1</ValidationUpdateNumber>
+    <UpdateNumber>75</UpdateNumber>
     <ResourceBundle>HelloRulesTranslations</ResourceBundle>
 </RuleDictionary>
