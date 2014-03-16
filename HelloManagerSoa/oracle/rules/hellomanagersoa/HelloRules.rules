@@ -6,23 +6,6 @@
     <Version>11.1.1.0.0</Version>
     <DataModel id="L}1">
         <CreationUpdateNumber>2</CreationUpdateNumber>
-        <Variable id="G}-41c81673:144cb4919e9:-7c37">
-            <Name>Global1</Name>
-            <Alias>Global1</Alias>
-            <Visible>true</Visible>
-            <CreationUpdateNumber>74</CreationUpdateNumber>
-            <IDofType>B}nil</IDofType>
-            <ListContentID>B}nil</ListContentID>
-            <IDofBucketSet>B}nil</IDofBucketSet>
-            <Expression id="L}441">
-                <IsConstant>false</IsConstant>
-                <ParameterID>B}nil</ParameterID>
-                <Customizable>true</Customizable>
-            </Expression>
-            <Final>true</Final>
-            <System>false</System>
-            <ValidationUpdateNumber>-1</ValidationUpdateNumber>
-        </Variable>
         <JaxbFactType id="J}org.example.Criteria">
             <Name>org.example.Criteria</Name>
             <Alias>criteria</Alias>
@@ -1345,6 +1328,51 @@
             <Excluded>false</Excluded>
             <ValidationUpdateNumber>51</ValidationUpdateNumber>
         </BucketSet>
+        <BucketSet id="G}454b0fa6:144cc50971e:-7c37">
+            <Name>GlobalsGreetingBucketset</Name>
+            <Alias>Globals-Greeting-Bucketset</Alias>
+            <Visible>true</Visible>
+            <CreationUpdateNumber>79</CreationUpdateNumber>
+            <IDofType>J}java.lang.String</IDofType>
+            <ListContentID>B}nil</ListContentID>
+            <Type>String</Type>
+            <Form>LOV</Form>
+            <Bucket id="G}454b0fa6:144cc50971e:-7c36">
+                <Name>otherwise</Name>
+                <Alias>otherwise</Alias>
+                <Visible>true</Visible>
+                <CreationUpdateNumber>79</CreationUpdateNumber>
+                <Inclusive>true</Inclusive>
+                <Otherwise>true</Otherwise>
+                <Excluded>false</Excluded>
+                <Expression id="L}452">
+                    <Value>&quot;otherwise&quot;</Value>
+                    <ResolvedValue>&quot;otherwise&quot;</ResolvedValue>
+                    <IsConstant>true</IsConstant>
+                    <ParameterID>B}nil</ParameterID>
+                    <Customizable>false</Customizable>
+                </Expression>
+            </Bucket>
+            <Bucket id="G}454b0fa6:144cc50971e:-7c34">
+                <Name>&quot;Honorable Senpai&quot;</Name>
+                <Alias>above-above</Alias>
+                <Visible>true</Visible>
+                <CreationUpdateNumber>82</CreationUpdateNumber>
+                <Inclusive>false</Inclusive>
+                <Otherwise>false</Otherwise>
+                <Excluded>false</Excluded>
+                <Expression id="L}460">
+                    <Value>&quot;Honorable Senpai&quot;</Value>
+                    <ResolvedValue>&quot;Honorable Senpai&quot;</ResolvedValue>
+                    <IsConstant>true</IsConstant>
+                    <ParameterID>B}nil</ParameterID>
+                    <Customizable>false</Customizable>
+                </Expression>
+            </Bucket>
+            <CalendarForm>Date</CalendarForm>
+            <Excluded>false</Excluded>
+            <ValidationUpdateNumber>158</ValidationUpdateNumber>
+        </BucketSet>
         <SupportsXPathEnabled>false</SupportsXPathEnabled>
         <DecisionFunction id="G}36d4474c:142fd15e64b:-7bf1">
             <Name>HelloRulesService</Name>
@@ -1389,21 +1417,21 @@
             <RuleFiringLimit>10000</RuleFiringLimit>
             <RuleFiringLimitError>true</RuleFiringLimitError>
         </DecisionFunction>
-        <UpdateNumber>75</UpdateNumber>
-        <ValidationUpdateNumber>-1</ValidationUpdateNumber>
+        <UpdateNumber>161</UpdateNumber>
+        <ValidationUpdateNumber>161</ValidationUpdateNumber>
         <UpdateTime>-9223372036854775808</UpdateTime>
     </DataModel>
     <RuleSet id="G}36d4474c:142fd15e64b:-7bf2">
         <Name>GreetingRuleSet</Name>
         <Alias>GreetingRuleSet</Alias>
-        <ValidationUpdateNumber>73</ValidationUpdateNumber>
+        <ValidationUpdateNumber>159</ValidationUpdateNumber>
         <Customizable>true</Customizable>
         <Active>true</Active>
         <CalendarForm>DateTime</CalendarForm>
         <RuleSheet id="G}36d4474c:142fd15e64b:-7bed">
             <Name>HelloRules</Name>
             <Alias>HelloRules</Alias>
-            <ValidationUpdateNumber>73</ValidationUpdateNumber>
+            <ValidationUpdateNumber>159</ValidationUpdateNumber>
             <Priority>medium</Priority>
             <Customizable>true</Customizable>
             <Active>true</Active>
@@ -2017,7 +2045,7 @@
         <VisibilityFilterEnabled>false</VisibilityFilterEnabled>
         <CreationUpdateNumber>4</CreationUpdateNumber>
     </RuleSet>
-    <ValidationUpdateNumber>-1</ValidationUpdateNumber>
-    <UpdateNumber>75</UpdateNumber>
+    <ValidationUpdateNumber>161</ValidationUpdateNumber>
+    <UpdateNumber>161</UpdateNumber>
     <ResourceBundle>HelloRulesTranslations</ResourceBundle>
 </RuleDictionary>
